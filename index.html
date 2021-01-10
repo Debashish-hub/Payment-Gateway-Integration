@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+      body{
+        background-image: url("https://d.newsweek.com/en/full/1550458/facebook-giving-tuesday-how.jpg?w=1600&h=900&q=88&f=516048bc2df12af09293fb29452723f0");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      footer {
+        background: #EAF0F1;
+        background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+        background: linear-gradient(59deg, #3A6073, #16222A);
+        color: white;
+        margin-top:100px;
+      }
+
+      .footer-middle {
+        padding-top: 2em;
+        color: white;
+      }
+      .c1{
+        color: blue;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bolder;
+      }
+      .c2{
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+      }
+    </style>
+    <title>Donate For a Cause</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Donate For a Cause</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Contact Us For Any Queries
+          </span>
+        </div>
+      </div>
+    </nav>
+    <br><br>
+    <div class=" text-center">
+      <h1 class="display-4 c1">Donate For a Cause</h1>
+      <p class="lead c2">No one has ever become poor by giving.</p>
+      <hr class="my-4">
+      <p class="c2">We must give more in order to get more. It is the generous giving of ourselves that produces the generous harvest.</p><br><br><br>
+      <a href="/pay.html" class="btn btn-primary">Donate Now</a>
+    </div><br><br><br><br><br><br><br>
+    <div class="row my-5">
+      <div class="col-md-4 offset-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h3>Please Fill Your Details</h3><hr>
+            <form action="/paynow" method="post">
+              <div class="form-group">
+                <label for="name">Name: </label>
+                <input class="form-control" type="text" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email: </label>
+                <input class="form-control" type="text" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone: </label>
+                <input class="form-control" type="text" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message: </label>
+                <input class="form-control" type="text-area" name="message" required>
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount: </label>
+                <span class="input-group-text">Rs</span>
+                <input class="form-control" type="text" name="amount" required>
+              </div>
+              <div class="form-group">
+                <button class="btn form-control btn-primary">Donate</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="mainfooter" role="contentinfo">
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 sm">
+              <p class="text-center">Designed and built with love by <b>Debashish kumar sahoo</b></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 copy">
+              <p class="text-center">&copy; 2021 Donate For a Cause™ | India</p>
+              <p class="text-center">Call Us On +919876543210</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
